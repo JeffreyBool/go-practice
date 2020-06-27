@@ -22,7 +22,7 @@ var b int32
 b = 156
 fmt.Printf(“%d\n”, b) fmt.Printf(“%p\n”, &b)
 ```
-![指针地址](./img/指针地址.jpg)
+![指针地址](../images/指针地址.jpg)
 
 3. 指针类型的变量存储的是一个地址，所以又叫指针类型或者引用类型
 
@@ -33,7 +33,7 @@ fmt.Printf(“%d\n”, b) fmt.Printf(“%p\n”, &b)
  a = &b
 ```
 
-![指针类型](./img/E8C6A43126330AD2B09A51E5CAE0B16C.png)
+![指针类型](../images/E8C6A43126330AD2B09A51E5CAE0B16C.png)
 
 4. 指针类型定义，var 变量名 *类型
 
@@ -190,7 +190,7 @@ func main() {
 }
 ```
 
-![值拷贝](./img/30481C68451B12FC4972E52BC66C58EF.jpg)
+![值拷贝](../images/30481C68451B12FC4972E52BC66C58EF.jpg)
 
 13. 值拷贝和引用拷贝
 
@@ -205,7 +205,7 @@ func main() {
 }
 ```
 
-![值拷贝和引用拷贝](./img/5EE66F82-077E-4DED-BA37-F9A219FE636D.png)
+![值拷贝和引用拷贝](../images/5EE66F82-077E-4DED-BA37-F9A219FE636D.png)
 
 
 ## 课后练习

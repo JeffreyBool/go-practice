@@ -1,4 +1,3 @@
-
 ## 目录
 1. go源码组织方式
 2. main 函数和 main 包
@@ -29,10 +28,10 @@ func main() {
 }
 ```
 2. package 组织案例
-![package 组织案例](./img/6A190F82EFF2E52B82A1D7AD0E39F959.jpg)
+![package 组织案例](../images/6A190F82EFF2E52B82A1D7AD0E39F959.jpg)
 
 3. 链接过程
-![链接过程](./img/5A5C93AE-DB15-4700-8F9B-2BEA87D2EA21.png)
+![链接过程](../images/5A5C93AE-DB15-4700-8F9B-2BEA87D2EA21.png)
 
 ## 自定义包
 1. 除了可执行程序之外，用户可以写自定义包，自定义包编译成静态库
@@ -85,12 +84,12 @@ func Add(a,b int) int {
 }
 ```
 
-![init 函数执行过程](./img/92B319DE-5966-494A-B708-74AC4DD6533A.png)
+![init 函数执行过程](../images/92B319DE-5966-494A-B708-74AC4DD6533A.png)
 
 > 总结：先执行全局变量是初始化 --> 然后再执行 init 函数 --> 最后执行 main 函数
 
 2. 如果一个包 import 另外一个包
-![多个 init 函数执行流程](./img/4DAA696D-1D88-4352-8979-C4C0BBDF3A6C.png)
+![多个 init 函数执行流程](../images/4DAA696D-1D88-4352-8979-C4C0BBDF3A6C.png)
 
 ## 标示符
 `_` 标示符的另外一种用法
