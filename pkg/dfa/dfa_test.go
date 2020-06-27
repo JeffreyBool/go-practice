@@ -9,6 +9,7 @@ package dfa
 
 import (
 	"os"
+	"strings"
 	"testing"
 
 	filter "github.com/antlinker/go-dirtyfilter"
@@ -19,6 +20,14 @@ const filterText = `我是需要过滤的陰戶，内容为：**阴@@毛，需�
 
 //
 func TestDFA(t *testing.T) {
+	str := " 你好呀"
+	str1 := "   你好呀   "
+	str2 := " 你好 呀 "
+	t.Logf("%#v\n",str2)
+	t.Logf("%#v\n",strings.ToUpper(strings.Trim(str," ")))
+	t.Logf("%#v\n",strings.Trim(str1," "))
+	t.Logf("%#v\n",strings.Trim(str2," "))
+
 	file, err := os.Open("./data.txt")
 	if err != nil {
 		t.Error(err)
