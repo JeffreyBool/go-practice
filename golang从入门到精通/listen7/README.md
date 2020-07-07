@@ -241,3 +241,5 @@ func main() {
 
 1. 实现⼀个简易的计算器，⽀持加减乘除以及带括号的计算表达式，⽤户从终端输⼊表达式，
 程序输出计算结果。
+
+对应[github](https://github.com/JeffreyBool/go-practice/tree/master/golang%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/listen7)地址
