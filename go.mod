@@ -12,6 +12,7 @@ require (
 	github.com/pkg/errors v0.8.1
 	github.com/streadway/amqp v0.0.0-20200108173154-1c71cc93ed71
 	github.com/urfave/cli v1.22.4
+	golang.org/x/tools v0.0.0-20190422233926-fe54fb35175b
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 )
