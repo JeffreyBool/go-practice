@@ -1,0 +1,9 @@
+2020-07-27 19:34:51.513657 +0800 CST m=+0.000956653 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:52.517704 +0800 CST m=+1.005002446 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:53.522061 +0800 CST m=+2.009358283 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:54.526092 +0800 CST m=+3.013387826 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:55.531068 +0800 CST m=+4.018362629 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:56.533055 +0800 CST m=+5.020349187 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:57.537572 +0800 CST m=+6.024864448 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:58.539362 +0800 CST m=+7.026653915 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
+2020-07-27 19:34:59.542586 +0800 CST m=+8.029876726 FATAL (file_test.go:logger_test.TestNewLogger:23) test fatal log
